@@ -1,0 +1,647 @@
+/* bt5aly el site kolo 100% 3ala asass el 4a4a bta3t el user */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #999;
+  background: #e5e5e5;
+}
+
+section {
+  background: #fff;
+  background-color: #fff;
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px solid #e9e9e9;
+  border-radius: 5px 5px 0 0;
+}
+
+/***************************************** Header begining  ******************************/
+#header {
+  display: block;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 99999;
+}
+
+#header .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 1175px;
+  height: 54;
+  top: 0%;
+  left: 19%;
+  position: fixed;
+}
+#header .navbar {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  border: 0;
+  padding: 0;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+
+#header a {
+  transition: 300ms;
+
+  text-decoration: none;
+}
+#header a:hover {
+  transition: 300ms;
+  text-decoration: none;
+  background-color: #0a58ca;
+}
+#header .nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+#header .navbar-default {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  border: 0;
+  padding: 0;
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+  overflow: hidden;
+}
+#header ul {
+  text-align: center;
+}
+#header .nav li {
+  /* position: relative; */
+  display: inline-block;
+  margin-left: 1px;
+  height: 30px;
+}
+#header .nav li a {
+  padding: 0px 25px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #999;
+}
+
+#header .active {
+  background-color: #4864ec;
+  color: #fff;
+}
+
+/***************************************** Header ending  ******************************/
+
+/***************************************** Carsoul begining  ******************************/
+
+#carsoul {
+  background-image: url("https://demo.gridgum.com/templates/free-themes/blogger/images/slider-bg.jpg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+#carsoul div h1 {
+  font-size: 68px;
+  text-shadow: 0 3px rgb(0 0 0 / 10%);
+  color: #fff;
+}
+#carsoul div p {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+/* 
+#carsoul div .left-arrow {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 35%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#carsoul div .right-arrow {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 35%;
+  left: 97%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+} */
+
+/***************************************** Carsoul ending  ******************************/
+
+/* *************************************** Starting About Us********************************* */
+
+#about-us {
+  position: relative;
+  padding: 50px 30px;
+  bottom: 40px;
+}
+#about-us .flex-container-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+#about-us .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  /* gap: 20px; */
+}
+#about-us .flex-row div {
+  width: 250px;
+  /* gap: 20px; */
+}
+.about-us-container > div {
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  max-width: 23vw;
+}
+
+.center {
+  text-align: center;
+}
+#about-us div i {
+  font-size: 24px;
+  height: 68px;
+  width: 68px;
+  line-height: 68px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100%;
+  margin-bottom: 10px;
+}
+
+#about-us h4 {
+  color: #777;
+
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* text-align: center; */
+}
+#about-us p {
+  width: 90%;
+}
+#about-us .fa-apple {
+  background-color: #e74c3c;
+}
+#about-us .fa-android {
+  background-color: #3498db;
+}
+#about-us .fa-windows {
+  background-color: #8e44ad;
+}
+#about-us .fa-html5 {
+  background-color: #2ecc71;
+}
+#about-us .fa-css3-alt {
+  background-color: #2c3e50;
+}
+#about-us .fa-thumbs-up {
+  background-color: #1abc9c;
+}
+
+/* *************************************** Ending About Us********************************* */
+
+/* *************************************** Starting Our Work********************************* */
+#our-work {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 60%;
+
+  background-color: #fff;
+  padding-top: 20px;
+  margin: -31px 20%;
+}
+#our-work div {
+  margin-bottom: 50px;
+  border: 1px #000;
+  box-sizing: border-box;
+}
+#our-work p {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+  margin-bottom: 20px;
+
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+h2 {
+  font-size: 48px;
+  color: #777;
+}
+
+#our-work ul {
+  display: flex;
+  justify-content: center;
+}
+#our-work ul li {
+  list-style: none;
+  margin: 5px 3px;
+}
+#our-work ul li a {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  font-weight: 400;
+  line-height: 1.5;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+/* *************************************** Ending Our Work********************************* */
+
+/* *************************************** Starting Our Work2********************************* */
+
+#our-work-2 ul li a:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+#our-work-2 {
+  margin: 0px 20%;
+  position: relative;
+}
+#our-work-2 .images-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 20px; */
+}
+#our-work-2 .images-container img {
+  /* height: 50%; */
+  /* align-self: flex-end; */
+  width: 100%;
+}
+#our-work-2 .images-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 50px;
+}
+#our-work-2 .images-row div {
+  border-bottom: 1px solid rgba(119, 119, 119, 0.4);
+}
+#our-work-2 div a {
+  text-decoration: none;
+  color: #777;
+  font-weight: 300;
+  text-align: center;
+}
+
+#our-work-2 div a .fa-eye {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  font-weight: 300;
+  border: 0;
+  font-size: 24px;
+}
+#our-work-2 div .overlay {
+  margin: -2% 20%;
+  position: relative;
+}
+
+/* *************************************** Ending Our Work2********************************* */
+#our-team-1 p {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.4;
+  padding-bottom: 30px;
+
+  display: block;
+}
+
+/********************************************** Starting our-team-2******************************************* */
+
+#our-team-2 .flex-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+}
+#our-team-2 div img {
+  border-radius: 100%;
+  border: 5px #000;
+  width: 100%;
+  padding: 4px;
+  line-height: 1.428571429;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+#our-team-2 h3 {
+  margin-top: 10px;
+  display: block;
+  width: 100px;
+}
+#our-team-2 .flex2 {
+  text-align: center;
+}
+
+#our-team-2 div .fa-less-than,
+.fa-greater-than {
+  font-size: 35px;
+  font-weight: 200;
+  color: #4864ec;
+}
+#our-team-2 .flex2 a i:hover {
+  color: #428bca;
+}
+/********************************************** Ending our-team-2******************************************* */
+/********************************************** Statrting pricing******************************************* */
+#pricing {
+  padding-top: 50px;
+}
+#pricing p {
+  font-size: 21;
+}
+
+#pricing .big-gap {
+  margin-bottom: 100px;
+}
+#pricing .flex-container {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 200px; */
+}
+#pricing .ul-container {
+  width: 100%;
+}
+#pricing div ul {
+  background: #fff;
+  list-style: none;
+  margin: 0 0 20px;
+  /* width: 100%; */
+  /* text-align: center; */
+  padding: 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#pricing .plan-name {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#pricing .price {
+  color: #666;
+  padding: 15px 0;
+  font-size: 48px;
+}
+#pricing .selected {
+  background-color: #0a58ca;
+  color: white;
+}
+
+#pricing ul li {
+  padding: 10px 0;
+  margin: 0 15px;
+  border-bottom: 1px dashed #eee;
+}
+#pricing ul li a {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  font-weight: 300;
+  line-height: 1.33;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 10px 16px;
+  border-radius: 6px;
+  transition: 300ms;
+}
+#pricing ul li a:hover {
+  background-color: #428bca;
+  text-decoration: none;
+}
+
+/********************************************** Ending pricing******************************************* */
+
+/********************************************** Starting contact-us******************************************* */
+#contact-us {
+  background-color: #555;
+  color: #fff;
+}
+
+#contact-us .flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+  padding: 50px 30px;
+  border-bottom: 1px solid #e9e9e9;
+  position: relative;
+  gap: 300px;
+}
+#contact-us .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+}
+#contact-us .row-2 {
+  display: flex;
+  align-content: space-between;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+#contact-us .row-items {
+  width: 100%;
+}
+#contact-us ul {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 0;
+}
+#contact-us ul li {
+  margin: 0 0 20px;
+  width: 100%;
+}
+
+#contact-us ul li a {
+  margin: 0 0 20px;
+  text-decoration: none;
+  color: white;
+  transition: 300ms0;
+}
+#contact-us ul li a:hover {
+  color: #4f7dd4;
+}
+
+#contact-us .fa-brands {
+  border: 0;
+  color: #fff;
+  border-radius: 100%;
+  display: inline-block !important;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  padding: 0;
+}
+#contact-us .fa-brands:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#contact-us .fa-google-plus-g {
+  background-color: #dc422b;
+}
+
+#contact-us .fa-facebook-f {
+  background-color: #4f7dd4;
+}
+
+#contact-us .fa-pinterest {
+  background-color: #cb2027;
+}
+#contact-us .fa-twitter {
+  background-color: #5bceff;
+}
+#contact-us .fa-linkedin {
+  background-color: #21a6d8;
+}
+#contact-us .fa-youtube {
+  background-color: #ce332d;
+}
+
+#contact-us div input {
+  background-color: #444;
+  border: 0;
+  transition: 300ms;
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  /* vertical-align: middle; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#contact-us div textarea {
+  background-color: #444;
+  padding: 18px 15px;
+  height: 220px;
+  width: 54%;
+}
+#contact-us div button {
+  font-weight: 300;
+  border: 0;
+  color: #fff;
+  background-color: #d9534f;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#contact-us div .row-items {
+}
+
+#contact-us div button:hover {
+  background-color: #d23e39;
+}
+
+/********************************************** Ending contact-us******************************************* */
+/****************************************  Media Starting **************************************************************************/
+
+@media (max-width: 1200px) {
+  #header .container {
+    max-width: 750px;
+  }
+  #about-us .flex-container-columns {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .container {
+    flex-direction: row;
+  }
+
+  #about-us .flex-container-columns {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  #header.container {
+    max-width: 750px;
+  }
+}
+/****************************************  Media ending **************************************************************************/
